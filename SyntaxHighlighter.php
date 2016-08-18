@@ -50,7 +50,7 @@ $wgExtensionCredits['parserhook']['SyntaxHighlighter'] = array(
 	'description'	=> 'A syntax highlighter extension using alexgorbatchev.com/SyntaxHighlighter',
 	'version'	=> '1.2',
 	'author'	=> 'Seong Jae Lee >> http://bluebrown.net',
-	'url'		=> 'https://www.mediawiki.org/wiki/Extgension:SyntaxHighlighter'
+	'url'		=> 'https://www.mediawiki.org/wiki/Extension:SyntaxHighlighter'
 );
 
 $wgHooks['ParserFirstCallInit'][] = 'SyntaxHighlighter::setHooks';
